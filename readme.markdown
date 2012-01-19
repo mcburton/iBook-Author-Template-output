@@ -6,6 +6,9 @@ This is the "Basic" template from Apple's iBook Author app, exported to iBooks f
 
 I am not entirely certain. If someone with more EPUB foo knows please drop some knowledge on twitter -> @mcburton
 
+Update: Looks like it is EPUB3 markup with Apple's own CSS
+http://www.baldurbjarnason.com/notes/the-ibooks-textbook-format/
+
 ### Output from EpubCheck
 
 java -jar epubceck/epubcheck-3.0b4.jar test.epub // Renamed from .ibook

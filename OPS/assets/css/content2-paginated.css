@@ -1,0 +1,106 @@
+@namespace ibooks "http://www.apple.com/2011/iBooks";
+#textShape-1{
+	-ibooks-line-hints: textShape-1 p url(../hints/content2-landscape.plist) 94 10;
+}
+#textShape-3{
+	-ibooks-line-hints: textShape-3 p url(../hints/content2-landscape.plist) 104 2;
+}
+#textShape-6{
+	-ibooks-line-hints: textShape-6 p url(../hints/content2-landscape.plist) 107 1;
+}
+#textShape-5{
+	-ibooks-line-hints: textShape-5 p url(../hints/content2-landscape.plist) 106 1;
+}
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(textShape-1)
+	{
+		height: 476.000pt;
+		left: 50.000pt;
+		top: 232.000pt;
+		width: 438.000pt;
+		z-index: 1;
+	}
+	::slot(textShape-3)
+	{
+		height: 100.000pt;
+		left: 50.000pt;
+		top: 40.000pt;
+		width: 440.000pt;
+		z-index: 2;
+	}
+	::slot(textShape-2)
+	{
+		-ibooks-column-count: 1;
+		-ibooks-line-hints: textShape-2 p url(../hints/content2-landscape.plist) 0 28;
+		height: 668.000pt;
+		left: 533.000pt;
+		padding-bottom: 0.0000pt;
+		padding-left: 0.0000pt;
+		padding-right: 0.0000pt;
+		padding-top: 0.0000pt;
+		top: 40.000pt;
+		width: 440.000pt;
+		z-index: 3;
+	}
+	::slot(textShape-99)
+	{
+		height: 668.000pt;
+		left: 512.000pt;
+		top: 40.000pt;
+		width: 0.000pt;
+		z-index: 4;
+	}
+	::slot(textShape-5)
+	{
+		height: 20.000pt;
+		left: 50.000pt;
+		top: 715.000pt;
+		width: 923.000pt;
+		z-index: 5;
+	}
+	-ibooks-positioned-slots: textShape-1, textShape-3, textShape-99, textShape-5, body(textShape-2);
+}
+
+@page ::nth-instance
+{
+	height: 748.0pt;
+	width: 1024.0pt;
+	::slot(textShape-0)
+	{
+		-ibooks-column-count: 2;
+		-ibooks-column-gap:  4.6587%;
+		-ibooks-column-width:  47.6706% 47.6706%;
+		-ibooks-line-hints: textShape-0 p url(../hints/content2-landscape.plist) 28 56;
+		height: 668.000pt;
+		left: 50.000pt;
+		padding-bottom: 0.0000pt;
+		padding-left: 0.0000pt;
+		padding-right: 0.0000pt;
+		padding-top: 0.0000pt;
+		top: 40.000pt;
+		width: 923.000pt;
+		z-index: 1;
+	}
+	::slot(textShape-102)
+	{
+		-ibooks-box-wrap-exterior-path: directional contour both 12.0pt 0.000000 true;
+		height: 668.000pt;
+		left: 512.000pt;
+		top: 40.000pt;
+		width: 0.000pt;
+		z-index: 2;
+	}
+	::slot(textShape-6)
+	{
+		height: 20.000pt;
+		left: 50.000pt;
+		top: 715.000pt;
+		width: 923.000pt;
+		z-index: 3;
+	}
+	-ibooks-positioned-slots: textShape-102, textShape-6, body(textShape-0);
+}
+
